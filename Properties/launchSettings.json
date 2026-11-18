@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Dashboard": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "dashboard/",
+      "applicationUrl": "http://localhost:1238",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Dashboard"
+      }
+    },
+    "Device1": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:1235",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Device1",
+        "DeviceApi__UseHttpsRedirection": "false"
+      }
+    },
+    "Device2": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:1237",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Device2",
+        "DeviceApi__UseHttpsRedirection": "false"
+      }
+    }
+  }
+}
